@@ -1,0 +1,118 @@
+body {
+    color: #40514E;
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2rem;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h2 {
+    color: #66BFBF;
+}
+
+h3 {
+    color: #11999E
+}
+#avatar {
+    width: 200px;
+}
+.skillrows {
+   text-align: justify; 
+   width: 50%;
+   margin: auto;
+}
+#code {
+    width: 200px;
+    float: left;
+    padding-right: 20px;
+}
+#sport {
+    width: 200px;
+    float: right;
+    padding-left: 20px;
+}
+
+.top-container {
+    padding: 100px;
+    position: relative;
+    background-color: #EAF6F6;
+}
+
+
+.middle-container {
+    margin-top: 50px;
+}
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+#cloud1 {
+    position: absolute;
+    top: 100px;
+    right: 400px;
+
+}
+#cloud2 {
+    position: absolute;
+    bottom: 400px;
+    left: 400px;
+}
+.intro {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.profile {
+    width: 50%;
+    margin: auto;
+}
+.infor li {
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a {
+    text-decoration: none;
+    color: #11999E;
+}
+a:hover {
+    color: #EAF6F6;    
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;    
+}
+#copyright {
+    color: #EAF6F6;
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+.button {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;    
+}
+.button:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;    
+}
